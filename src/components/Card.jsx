@@ -9,8 +9,8 @@ function Card(props) {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">{props.name}</h2>
-          <p>{props.para}</p>
+          <h2 className="card-title">{props.title}</h2>
+          <p>{props.desc}</p>
           <div className="card-actions justify-end">
             <button className="btn btn-success text-white">Buy Now</button>
           </div>
